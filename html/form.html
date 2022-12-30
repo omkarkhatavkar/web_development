@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        label {
+            white-space: pre-wrap;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+        }
+        input{
+            white-space: pre-wrap;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            margin-bottom: 10px;
+        }
+        button{
+            white-space: pre-wrap;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: medium;
+            margin-bottom: 10px;
+        }
+        select{
+            white-space: pre-wrap;
+            font-family: 'Times New ss', Times, serif;
+            font-size: medium;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CodeHelp</h1>
+    <h3>Feedback Form</h3>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter Name" required type="text"><br>
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Enter Email" required type="email"><br>
+        <label for="contact">Contact No:</label>
+        <input type="text" placeholder="Enter Contact Number" required type="number"><br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date"><br>
+        <label for="rating">Rating:</label>
+        <input type="radio" id="radiobutton" value="1"><label>1</label>
+        <input type="radio" id="radiobutton" value="2"><label>2</label>
+        <input type="radio" id="radiobutton" value="3"><label>3</label>
+        <input type="radio" id="radiobutton" value="4"><label>4</label>
+        <input type="radio" id="radiobutton" value="5"><label>5</label><br>
+        <label for="eom" type="text">Enter Your Message:</label><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
